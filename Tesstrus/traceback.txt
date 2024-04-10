@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 37, in script
+    g "Ты... кто? Ты чей?"
+Exception: Sayer b'g' is not a function or string.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 37, in script
+    g "Ты... кто? Ты чей?"
+  File "C:\Users\marakulina-u\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
+    Say.execute(self)
+  File "C:\Users\marakulina-u\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 592, in execute
+    raise Exception("Sayer %s is not a function or string." % self.who.encode("utf-8"))
+Exception: Sayer b'g' is not a function or string.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.2.1.24030407
+Markiz 1.0
+Wed Apr 10 22:26:12 2024
