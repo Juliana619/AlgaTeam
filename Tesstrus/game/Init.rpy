@@ -29,15 +29,13 @@ define BoolBurger = False #Взять ли бургер
 
 #Слайдшоу меню
 image menu_slideshow:
-    im.Scale("Backgrounds/bg_bedroom.png", 1920, 1080)
+    im.Scale("Backgrounds/bg_bedroom.png", 1920, 1080) with dissolve
+    pause 2.0
+    im.Scale("images/Ends/end_happy.png", 1920, 1080) with dissolve
     pause 3.0
-    "images/Ends/end_happy.png"
+    im.Scale("images/Ends/end_alone.png", 1920, 1080) with dissolve
     pause 3.0
-    "images/Ends/end_alone.png"
-    pause 3.0
-    "images/Ends/end_alone.png"
-    pause 3.0
-    "images/Ends/end_domosed.png"
+    im.Scale("images/Ends/end_domosed.png", 1920, 1080) with dissolve
     pause 3.0
     repeat
 
