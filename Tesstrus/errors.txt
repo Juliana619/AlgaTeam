@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 359: 'ground' is not a keyword argument or valid child of the screen statement.
-    ground "menu_slideshow"
-          ^
+File "game/options.rpy", line 65: invalid syntax
+    "MenuTheme.mp3" volume 0.5
+                     ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Wed Apr 10 22:40:27 2024
+Thu Apr 11 20:33:12 2024

@@ -886,13 +886,20 @@ style slider_vbox:
 ## Экран галереи ###############################################################
 screen gallery():
     tag menu
-    add "UI/Logo.png"
+    add im.Scale("UI/Logo.png", 1920, 1080)
 
     grid 3 2:
         xfill True
         yfill True
 
-        add g.make_button("end_domosed", "images/UI/Locked.png", xalign=0.5, yalign=0.5, hover_border="images/UI/Frame.png")
+        add g.make_button("end_domosed", im.Scale("images/Ends/end_domosed.png", 437, 245), xalign=0.5, yalign=0.5, hover_border="images/UI/Frame.png")
+        add g.make_button("end_dead", "images/UI/Locked.png", xalign=0.5, yalign=0.5, hover_border="images/UI/Frame.png")
+        add g.make_button("end_burger", "images/UI/Locked.png", xalign=0.5, yalign=0.5, hover_border="images/UI/Frame.png")
+        ## null
+        add g.make_button("end_happy", "images/UI/Locked.png", xalign=0.5, yalign=0.5, hover_border="images/UI/Frame.png")
+        add g.make_button("end_alone", "images/UI/Locked.png", xalign=0.5, yalign=0.5, hover_border="images/UI/Frame.png")
+    textbutton "Назад" action Return() xalign 0.5 yalign 0.95
+
 ## Экран истории ###############################################################
 ##
 ## Этот экран показывает игроку историю диалогов. Хотя в этом экране нет ничего

@@ -62,8 +62,7 @@ define config.has_voice = True
 ## проигрываться в главном меню. Этот файл продолжит проигрываться во время
 ## игры, если не будет остановлен, или не начнёт проигрываться другой аудиофайл.
 
-define config.main_menu_music = "MenuTheme.mp3"
-
+## define config.main_menu_music = "MenuTheme.mp3"
 
 ## Переходы ####################################################################
 ##
@@ -218,7 +217,7 @@ init python:
 
     g.button("end_domosed")
     g.condition("persistent.end_domosed")
-    g.image("images/Ends/end_domosed.png")
+    g.image(im.Scale("images/Ends/end_domosed.png", 1920, 1080))
 
     g.button("end_dead")
     g.condition("persistent.end_dead")
