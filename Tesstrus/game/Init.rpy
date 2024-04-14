@@ -46,9 +46,9 @@ image Valp Zam = "Characters/Valp Zam.png" #Зам
 #image King Surp = "Characters/King Surp.png" #Удив
 
 #КОРОЛЬ РМ
-#image KRM Sad = "Characters/KRM Sad.png" 
-#image KRM Evil = "Characters/KRM Evil.png" 
-#image KRM Happy = "Characters/KRM Happy.png" 
+image KRM Sad = "Characters/KRM Sad.png"
+image KRM Evil = "Characters/KRM Evil.png"
+image KRM Happy = "Characters/KRM Happy.png
 
 #ДВОРЕЦКИЙ
 #image DRM Normal = "Characters/DRM Normal.png"
