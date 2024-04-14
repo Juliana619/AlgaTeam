@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/gardenscapes.rpy", line 93: Line is indented, but the preceding jump statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    return  
-    ^
+File "game/familyscapes.rpy", line 29: expected ':' not found.
+    label ToNextPlease
+                      ^
+
+File "game/familyscapes.rpy", line 38: expected ':' not found.
+    label CalmMan
+                 ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sun Apr 14 14:14:31 2024
+Sun Apr 14 14:52:13 2024

@@ -1,36 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/wildscapes.rpy", line 3, in script
-    with hpunch(.5)
-  File "game/wildscapes.rpy", line 3, in <module>
-    with hpunch(.5)
-Exception: Not a displayable: 0.5
+  File "game/familyscapes.rpy", line 26, in script
+    jump ToNextPlese
+ScriptError: could not find label 'ToNextPlese'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/wildscapes.rpy", line 3, in script
-    with hpunch(.5)
-  File "C:\Users\marakulina-u\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 1356, in execute
-    trans = renpy.python.py_eval(self.expr)
-  File "C:\Users\marakulina-u\Desktop\renpy-8.2.1-sdk\renpy\python.py", line 1209, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "C:\Users\marakulina-u\Desktop\renpy-8.2.1-sdk\renpy\python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/wildscapes.rpy", line 3, in <module>
-    with hpunch(.5)
-  File "C:\Users\marakulina-u\Desktop\renpy-8.2.1-sdk\renpy\display\motion.py", line 299, in Move
-    return Motion(Interpolate(startpos, endpos),
-  File "C:\Users\marakulina-u\Desktop\renpy-8.2.1-sdk\renpy\display\motion.py", line 102, in __init__
-    self.add(child)
-  File "C:\Users\marakulina-u\Desktop\renpy-8.2.1-sdk\renpy\display\layout.py", line 214, in add
-    child = renpy.easy.displayable(d)
-  File "C:\Users\marakulina-u\Desktop\renpy-8.2.1-sdk\renpy\easy.py", line 145, in displayable
-    raise Exception("Not a displayable: %r" % (d,))
-Exception: Not a displayable: 0.5
+  File "game/familyscapes.rpy", line 26, in script
+    jump ToNextPlese
+  File "C:\Users\marakulina-u\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 1698, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\marakulina-u\Desktop\renpy-8.2.1-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'ToNextPlese'.
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.2.1.24030407
 Markiz 1.0
-Sun Apr 14 12:38:57 2024
+Sun Apr 14 14:54:13 2024

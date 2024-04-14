@@ -27,8 +27,12 @@ image Valp Zam = "Characters/Valp Zam.jpg" #Зам
 #image Panda Normal = "Characters/Panda Normal.png"  #Обыч
 #image Panda Cry = "Characters/Panda Cry.png" #Плач
 
-#image Ostin Normal = "Characters/Ostin Normal.png" #Плач
-#image Ostin Evil = "Characters/Ostin Evil.png" #Плач
+#Остин
+#image Ostin Normal = "Characters/Ostin Normal.png" #Норм
+#image Ostin Evil = "Characters/Ostin Evil.png" #Злой
+
+#image Man Sad = "Characters/Man Sad.png" #Грусть
+#image Man Cry = "Characters/Man Cry.png" #Плач
 
 #удалиьть
 image Joy Normal = "Characters/Joy Normal.png"
@@ -45,7 +49,8 @@ define rixnone = Character('Голос', color="#ffffff", image=None)
 define rix = Character('Дракон', color="#0e6415", image='Rix')
 define panda = Character('Красная панда', color="#0e6415", image='Panda')
 define fish = Character('Рыбка', color="#6116c4", image='Fish')
-define ostin = Character('Садовник', color="#6116c4", image='Ostin')
+define ostin = Character('Садовник', color="#ee2e2e", image='Ostin')
+define man = Character('Мужчина', color="#6384cc", image='Ostin')
 
 define incognito = Character('?', color="#ffffff")
 #удалиьть
