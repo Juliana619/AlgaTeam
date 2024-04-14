@@ -32,12 +32,12 @@ image Fish Normal = "Characters/Fish Normal.png"  #Обыч
 image Fish Sad = "Characters/Fish Sad.png" #Плач
 
 #Остин
-#image Ostin Normal = "Characters/Ostin Normal.png" #Норм
-#image Ostin Evil = "Characters/Ostin Evil.png" #Злой
+image Ostin Normal = "Characters/Ostin Normal.png" #Норм
+image Ostin Evil = "Characters/Ostin Evil.png" #Злой
 
 #Мужик с ФС
-#image Man Sad = "Characters/Man Sad.png" #Грусть
-#image Man Cry = "Characters/Man Cry.png" #Плач
+image Man Sad = "Characters/Man Sad.png" #Грусть
+image Man Cry = "Characters/Man Cry.png" #Плач
 
 #ЕНОТ
 image Rac Happy = "Characters/Rac Happy.png" #Радостный
@@ -45,9 +45,9 @@ image Rac Worr = "Characters/Rac Worr.png" #Тревожный
 
 
 #КОРОЛЬ
-#image King Freez = "Characters/King Freez.png" #Замор
-#image King Happy = "Characters/King Happy.png" #Счаст
-#image King Surp = "Characters/King Surp.png" #Удив
+image King Freez = "Characters/King Freez.png" #Замор
+image King Happy = "Characters/King Happy.png" #Счаст
+image King Surp = "Characters/King Surp.png" #Удив
 
 #КОРОЛЬ РМ
 image KRM Sad = "Characters/KRM Sad.png"
@@ -55,7 +55,7 @@ image KRM Evil = "Characters/KRM Evil.png"
 image KRM Happy = "Characters/KRM Happy.png"
 
 #ДВОРЕЦКИЙ
-#image DRM Normal = "Characters/DRM Normal.png"
+image DRM Normal = "Characters/DRM Normal.png"
 
 #удалиьть
 image Joy Normal = "Characters/Joy Normal.png"
