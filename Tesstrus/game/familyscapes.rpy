@@ -4,11 +4,11 @@ label FamilyStart:
     stop music fadeout 1
     play music Family
     show Val Pain at leftm with easeinleft
-    show rix at rightm with easeinright
+    show Rix at rightm with easeinright
 
     "На этот раз Лера успела подготовиться к телепортации. Открыв глаза она поянла, что находится в здании." 
     "На секунду ей даже показалось, что это тот самый особняк садовника, в который она так и не смогла попасть. Однако, перепуганный мужчина по среди комнаты дал понять, что она точно в другом мире."
-    show man Sad at rightm with easeinright
+    show Man Sad at rightm with easeinright
     man Sad "Кккккккто ты? Откуда ты взялась? Неужели у меня.. галлюцинации?"
     val Fear "Добрый день.. Ой, или вечер? А может и утро…"
     "Мужчина молчал и не отрываясь смотрел на Леру."

@@ -1,5 +1,5 @@
 label GardenStart:
-    scene bg_street
+    scene bg_gardenscapes
     with hpunch
     stop music fadeout 1
     play music Garden

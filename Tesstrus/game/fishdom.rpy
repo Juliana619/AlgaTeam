@@ -1,5 +1,5 @@
 label FishdomStart:
-    scene bg_street
+    scene bg_fishdom
     with hpunch
     stop music fadeout 1
     play music Fishdom
