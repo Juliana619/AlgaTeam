@@ -1,22 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/familyscapes.rpy", line 37, in script
-    jump GoldRunStart
-ScriptError: could not find label 'GoldRunStart'.
+  File "game/Ends.rpy", line 62, in script
+    ПОЛУЧЕНА КОНЦОВКА "НОВЫЙ ДИВНЫЙ ДОМ"
+Exception: Sayer 'ПОЛУЧЕНА' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/familyscapes.rpy", line 37, in script
-    jump GoldRunStart
-  File "C:\Users\marakulina-u\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 1698, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\marakulina-u\Desktop\renpy-8.2.1-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'GoldRunStart'.
+  File "game/Ends.rpy", line 62, in script
+    ПОЛУЧЕНА КОНЦОВКА "НОВЫЙ ДИВНЫЙ ДОМ"
+  File "C:\Users\marakulina-u\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
+    Say.execute(self)
+  File "C:\Users\marakulina-u\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\marakulina-u\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'ПОЛУЧЕНА' is not defined.
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.2.1.24030407
 Markiz 1.0
-Sun Apr 14 15:23:15 2024
+Sun Apr 14 17:16:43 2024

@@ -67,6 +67,7 @@ label Remind:
     ostin Normal "Вот, возьми. Могу дать тебе, но только одну!"
 
     #ПЕРЕБИВКА "ВЫ ПОЛУЧИЛИ ПРЕДМЕТ"
+    $ chipcount = chipcount + 1
     $ gardenchip = True
 
     val Happy "Спасибо большое!"

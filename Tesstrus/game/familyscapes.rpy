@@ -79,6 +79,7 @@ label CalmMan:
     man Sad "Но вам я готов помочь. Вот - держите!"
 
     #ПЕРЕБИВКА "ВЫ ПОЛУЧИЛИ ПРЕДМЕТ"
+    $ chipcount = chipcount + 1
     $ familychip = True
     rix "Отлично, уходим!"
     val Fight "Спасибо вам, мы постараемся спасти ваш мир!"

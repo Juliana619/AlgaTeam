@@ -45,6 +45,14 @@ image Valp Zam = "Characters/Valp Zam.png" #Зам
 #image King Happy = "Characters/King Happy.png" #Счаст
 #image King Surp = "Characters/King Surp.png" #Удив
 
+#КОРОЛЬ РМ
+#image KRM Sad = "Characters/KRM Sad.png" 
+#image KRM Evil = "Characters/KRM Evil.png" 
+#image KRM Happy = "Characters/KRM Happy.png" 
+
+#ДВОРЕЦКИЙ
+#image DRM Normal = "Characters/DRM Normal.png"
+
 #удалиьть
 image Joy Normal = "Characters/Joy Normal.png"
 image Joy Sad = "Characters/Joy Sad.png"
@@ -64,6 +72,11 @@ define ostin = Character('Садовник', color="#ee2e2e", image='Ostin')
 define man = Character('Мужчина', color="#6384cc", image='Man')
 define rac = Character('Енот', color="#666970", image='Rac')
 define king = Character('Король', color="#f8e53a", image='King')
+define drm = Character('Дворецкий', color="#921818", image='DRM')
+define krm = Character('Король Эрэм', color="#7b0c8a", image='KRM')
+
+define ulik = Character('Ульяна', color="#de8ee9")
+define mari = Character('Мария', color="#f8a4c7")
 
 define incognito = Character('?', color="#ffffff")
 #удалиьть
@@ -102,7 +115,7 @@ define fishchip = False
 define familychip = False
 define gardenchip = False
 define goldhunterchip = False
-
+define chipcount = 0
 define BoolBurger = False #Взять ли бургер
 
 # Вместо использования оператора image можете просто
