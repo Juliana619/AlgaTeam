@@ -22,6 +22,10 @@ image Valp Zam = "Characters/Valp Zam.jpg" #Зам
 #Рикс
 image Rix Normal = "Characters/Markiz Normal.png"
 
+#Панда
+image Panda Normal = "Characters/Valp Normal.png"  #Обыч
+image Panda Cry = "Characters/Valp Zam.jpg" #Плач
+
 #удалиьть
 image Joy Normal = "Characters/Joy Normal.png"
 image Joy Sad = "Characters/Joy Sad.png"
@@ -35,6 +39,8 @@ define val = Character('Валерия', color="#f8d77b", image='Val')
 define valp = Character('Зоя', color="#48d198", image='Valp')
 define rixnone = Character('Голос', color="#ffffff", image=None)
 define rix = Character('Дракон', color="#0e6415", image='Rix')
+define panda = Character('Красная панда', color="#0e6415", image='Panda')
+define fish = Character('Рыбка', color="#6116c4", image='Fish')
 
 #удалиьть
 define m = Character('Маркиз', color="#665f37", image='Markiz')
@@ -67,6 +73,12 @@ define fs = Character(None, kind=nvl) #Для вывода текста на в�
 
 #==========================================================================
 # Переменные
+define wildchip = False
+define fishchip = False
+define familychip = False
+define gardenchip = False
+define goldhunterchip = False
+
 define BoolBurger = False #Взять ли бургер
 
 # Вместо использования оператора image можете просто

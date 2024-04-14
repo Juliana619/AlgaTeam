@@ -2,9 +2,11 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 85: expected statement.
-    ок
-      ^
+The label Wildstart is defined twice, at File "game/fishdom.rpy", line 1:
+label Wildstart:
+and File "game/wildscapes.rpy", line 1:
+﻿label Wildstart:
+
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sun Apr 14 12:17:24 2024
+Sun Apr 14 13:13:41 2024
