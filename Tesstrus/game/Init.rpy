@@ -41,7 +41,7 @@ define rixnone = Character('Голос', color="#ffffff", image=None)
 define rix = Character('Дракон', color="#0e6415", image='Rix')
 define panda = Character('Красная панда', color="#0e6415", image='Panda')
 define fish = Character('Рыбка', color="#6116c4", image='Fish')
-
+define incognito = Character('?', color="#ffffff")
 #удалиьть
 define m = Character('Маркиз', color="#665f37", image='Markiz')
 define mn = Character('?', color="#665f37")

@@ -2,11 +2,17 @@
 errors listed below, and try again.
 
 
-The label Wildstart is defined twice, at File "game/fishdom.rpy", line 1:
-label Wildstart:
-and File "game/wildscapes.rpy", line 1:
-﻿label Wildstart:
+File "game/fishdom.rpy", line 25: menu statement expects a non-empty block.
+    menu:
+        ^
 
+File "game/fishdom.rpy", line 26: expected statement.
+    "Проигнорировать рыбку" :
+                            ^
+
+File "game/fishdom.rpy", line 28: expected statement.
+    "Помочь рыбке" :
+                   ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sun Apr 14 13:13:41 2024
+Sun Apr 14 13:45:43 2024

@@ -925,3 +925,900 @@ Load screen analysis took 0.02s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
+Resetting cache.
+Early init took 2998.99s
+Loading error handling took 0.02s
+Loading script took 0.13s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\marakulina-u\\AppData\\Roaming/RenPy/backups\\Tesstrus':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.28s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3215.36s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/fishdom.rpy", line 14: expected statement.
+    ВАЛ ЗАДУМЧ *"И все-таки… Что со мной происходит? А что, если я умерла, а это все - что-то типа чистилища? 7 кругов ада и один уже пройден?"*
+               ^
+
+File "game/fishdom.rpy", line 19: expected statement.
+    ? "ААААААААААААААААААААААААААААААААААААААААААА! ПОМОГИТЕ!!!!!"
+    ^
+
+File "game/fishdom.rpy", line 23: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/fishdom.rpy", line 24: expected statement.
+    "Проигнорировать рыбку" :
+                            ^
+
+File "game/fishdom.rpy", line 26: expected statement.
+    "Помочь рыбке" :
+                   ^
+
+File "game/fishdom.rpy", line 40: expected statement.
+    ВАЛ ЗАДУМ: "Это должно сработать. Должно ведь, да?"
+             ^
+
+File "game/fishdom.rpy", line 43: expected statement.
+    РЫБКА: "Юная русалка, я не знаю где твой хвост, но спасибо за то, что помогла мне!"
+         ^
+
+File "game/fishdom.rpy", line 44: expected statement.
+    ВАЛ СМУЩ: "Ааа… ээээ? Даааа…. Не за что!"
+            ^
+
+File "game/fishdom.rpy", line 45: expected statement.
+    РИКС: "Пфффхахахах, ты что, засмущалась от того, что тебя русалкой обозвали? Не забывай зачем мы здесь! Распроси ее об артефкате!"
+        ^
+
+File "game/fishdom.rpy", line 46: expected statement.
+    ВАЛ: "Рыбка… Красотка! Слушай, а у вас тут есть что-то типа артефекта? Местной реликвии? Какой-то штуки, которая имеет силу?"
+       ^
+
+File "game/fishdom.rpy", line 47: expected statement.
+    РЫБКА: "А, ты еще не поняла? Ты же сама воспользовалась ей, чтобы меня спасти."
+         ^
+
+File "game/fishdom.rpy", line 48: expected statement.
+    РИКС: "Точно, эти карты явно обладают какой-то силой."
+        ^
+
+File "game/fishdom.rpy", line 49: expected statement.
+    ВАЛ ДОВОЛЬНАЯ: " Теперь поняла! А ты не против, если я прихвачу карты с собой?"
+                 ^
+
+File "game/fishdom.rpy", line 50: expected statement.
+    РЫБКА: "Ну хорошо. Ты выглядишь доброй. Ты спасла меня. Можешь взять с собой одну карту."
+         ^
+
+File "game/fishdom.rpy", line 51: expected statement.
+    ВАЛ ЗАДУМ: "Всего одну?"
+             ^
+
+File "game/fishdom.rpy", line 52: expected statement.
+    РЫБКА: "Не пойми меня неправильно! Тут недавно был один чужеземец. Все рыскал, искал что-то. Видимо то же самое, что и ты. К счастью, он ничего не нашел."
+         ^
+
+File "game/fishdom.rpy", line 53: expected statement.
+    РЫБКА ГРУСТН: "Но наш мир после этого… Он стал немного другим. Начал меняться. В плохую сторону."
+                ^
+
+File "game/fishdom.rpy", line 54: expected statement.
+    РЫБКА ГРУСТН: "Если ты сможешь нам как-то помочь, остановить это, то бери эту карту!"
+                ^
+
+File "game/fishdom.rpy", line 57: expected statement.
+    ВАЛ ЧЕСТЬ: "Ничего не обещаю рыбка, но я постараюсь!"
+             ^
+
+File "game/fishdom.rpy", line 58: expected statement.
+    РИКС: "Кажется, нам пора"
+        ^
+
+File "game/fishdom.rpy", line 59: expected statement.
+    ВАЛ ЗАДУМ: "Но почему карта превратилась в фиш…"
+             ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.48s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3329.92s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/fishdom.rpy", line 14: expected statement.
+    val ЗАДУМЧ *"И все-таки… Что со мной происходит? А что, если я умерла, а это все - что-то типа чистилища? 7 кругов ада и один уже пройден?"*
+               ^
+
+File "game/fishdom.rpy", line 19: expected statement.
+    ? "ААААААААААААААААААААААААААААААААААААААААААА! ПОМОГИТЕ!!!!!"
+    ^
+
+File "game/fishdom.rpy", line 23: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/fishdom.rpy", line 24: expected statement.
+    "Проигнорировать рыбку" :
+                            ^
+
+File "game/fishdom.rpy", line 26: expected statement.
+    "Помочь рыбке" :
+                   ^
+
+File "game/fishdom.rpy", line 40: expected statement.
+    val ЗАДУМ: "Это должно сработать. Должно ведь, да?"
+             ^
+
+File "game/fishdom.rpy", line 43: expected statement.
+    fish: "Юная русалка, я не знаю где твой хвост, но спасибо за то, что помогла мне!"
+        ^
+
+File "game/fishdom.rpy", line 44: expected statement.
+    val СМУЩ: "Ааа… ээээ? Даааа…. Не за что!"
+            ^
+
+File "game/fishdom.rpy", line 45: expected statement.
+    rix: "Пфффхахахах, ты что, засмущалась от того, что тебя русалкой обозвали? Не забывай зачем мы здесь! Распроси ее об артефкате!"
+       ^
+
+File "game/fishdom.rpy", line 46: expected statement.
+    val: "Рыбка… Красотка! Слушай, а у вас тут есть что-то типа артефекта? Местной реликвии? Какой-то штуки, которая имеет силу?"
+       ^
+
+File "game/fishdom.rpy", line 47: expected statement.
+    fish: "А, ты еще не поняла? Ты же сама воспользовалась ей, чтобы меня спасти."
+        ^
+
+File "game/fishdom.rpy", line 48: expected statement.
+    rix: "Точно, эти карты явно обладают какой-то силой."
+       ^
+
+File "game/fishdom.rpy", line 49: expected statement.
+    val ДОВОЛЬНАЯ: " Теперь поняла! А ты не против, если я прихвачу карты с собой?"
+                 ^
+
+File "game/fishdom.rpy", line 50: expected statement.
+    fish: "Ну хорошо. Ты выглядишь доброй. Ты спасла меня. Можешь взять с собой одну карту."
+        ^
+
+File "game/fishdom.rpy", line 51: expected statement.
+    val ЗАДУМ: "Всего одну?"
+             ^
+
+File "game/fishdom.rpy", line 52: expected statement.
+    fish: "Не пойми меня неправильно! Тут недавно был один чужеземец. Все рыскал, искал что-то. Видимо то же самое, что и ты. К счастью, он ничего не нашел."
+        ^
+
+File "game/fishdom.rpy", line 53: expected statement.
+    fish ГРУСТН: "Но наш мир после этого… Он стал немного другим. Начал меняться. В плохую сторону."
+               ^
+
+File "game/fishdom.rpy", line 54: expected statement.
+    fish ГРУСТН: "Если ты сможешь нам как-то помочь, остановить это, то бери эту карту!"
+               ^
+
+File "game/fishdom.rpy", line 57: expected statement.
+    val ЧЕСТЬ: "Ничего не обещаю рыбка, но я постараюсь!"
+             ^
+
+File "game/fishdom.rpy", line 58: expected statement.
+    rix: "Кажется, нам пора"
+       ^
+
+File "game/fishdom.rpy", line 59: expected statement.
+    val ЗАДУМ: "Но почему карта превратилась в фиш…"
+             ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.37s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3439.97s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/fishdom.rpy", line 25: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/fishdom.rpy", line 26: expected statement.
+    "Проигнорировать рыбку" :
+                            ^
+
+File "game/fishdom.rpy", line 28: expected statement.
+    "Помочь рыбке" :
+                   ^
+
+File "game/fishdom.rpy", line 42: expected statement.
+    val ЗАДУМ: "Это должно сработать. Должно ведь, да?"
+             ^
+
+File "game/fishdom.rpy", line 45: expected statement.
+    fish: "Юная русалка, я не знаю где твой хвост, но спасибо за то, что помогла мне!"
+        ^
+
+File "game/fishdom.rpy", line 46: expected statement.
+    val СМУЩ: "Ааа… ээээ? Даааа…. Не за что!"
+            ^
+
+File "game/fishdom.rpy", line 47: expected statement.
+    rix: "Пфффхахахах, ты что, засмущалась от того, что тебя русалкой обозвали? Не забывай зачем мы здесь! Распроси ее об артефкате!"
+       ^
+
+File "game/fishdom.rpy", line 48: expected statement.
+    val: "Рыбка… Красотка! Слушай, а у вас тут есть что-то типа артефекта? Местной реликвии? Какой-то штуки, которая имеет силу?"
+       ^
+
+File "game/fishdom.rpy", line 49: expected statement.
+    fish: "А, ты еще не поняла? Ты же сама воспользовалась ей, чтобы меня спасти."
+        ^
+
+File "game/fishdom.rpy", line 50: expected statement.
+    rix: "Точно, эти карты явно обладают какой-то силой."
+       ^
+
+File "game/fishdom.rpy", line 51: expected statement.
+    val ДОВОЛЬНАЯ: " Теперь поняла! А ты не против, если я прихвачу карты с собой?"
+                 ^
+
+File "game/fishdom.rpy", line 52: expected statement.
+    fish: "Ну хорошо. Ты выглядишь доброй. Ты спасла меня. Можешь взять с собой одну карту."
+        ^
+
+File "game/fishdom.rpy", line 53: expected statement.
+    val ЗАДУМ: "Всего одну?"
+             ^
+
+File "game/fishdom.rpy", line 54: expected statement.
+    fish: "Не пойми меня неправильно! Тут недавно был один чужеземец. Все рыскал, искал что-то. Видимо то же самое, что и ты. К счастью, он ничего не нашел."
+        ^
+
+File "game/fishdom.rpy", line 55: expected statement.
+    fish ГРУСТН: "Но наш мир после этого… Он стал немного другим. Начал меняться. В плохую сторону."
+               ^
+
+File "game/fishdom.rpy", line 56: expected statement.
+    fish ГРУСТН: "Если ты сможешь нам как-то помочь, остановить это, то бери эту карту!"
+               ^
+
+File "game/fishdom.rpy", line 59: expected statement.
+    val ЧЕСТЬ: "Ничего не обещаю рыбка, но я постараюсь!"
+             ^
+
+File "game/fishdom.rpy", line 60: expected statement.
+    rix: "Кажется, нам пора"
+       ^
+
+File "game/fishdom.rpy", line 61: expected statement.
+    val ЗАДУМ: "Но почему карта превратилась в фиш…"
+             ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3461.22s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/fishdom.rpy", line 25: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/fishdom.rpy", line 26: expected statement.
+    "Проигнорировать рыбку" :
+                            ^
+
+File "game/fishdom.rpy", line 28: expected statement.
+    "Помочь рыбке" :
+                   ^
+
+File "game/fishdom.rpy", line 42: expected statement.
+    val ЗАДУМ: "Это должно сработать. Должно ведь, да?"
+             ^
+
+File "game/fishdom.rpy", line 45: expected statement.
+    fish: "Юная русалка, я не знаю где твой хвост, но спасибо за то, что помогла мне!"
+        ^
+
+File "game/fishdom.rpy", line 46: expected statement.
+    val СМУЩ: "Ааа… ээээ? Даааа…. Не за что!"
+            ^
+
+File "game/fishdom.rpy", line 47: expected statement.
+    rix: "Пфффхахахах, ты что, засмущалась от того, что тебя русалкой обозвали? Не забывай зачем мы здесь! Распроси ее об артефкате!"
+       ^
+
+File "game/fishdom.rpy", line 48: expected statement.
+    val: "Рыбка… Красотка! Слушай, а у вас тут есть что-то типа артефекта? Местной реликвии? Какой-то штуки, которая имеет силу?"
+       ^
+
+File "game/fishdom.rpy", line 49: expected statement.
+    fish: "А, ты еще не поняла? Ты же сама воспользовалась ей, чтобы меня спасти."
+        ^
+
+File "game/fishdom.rpy", line 50: expected statement.
+    rix: "Точно, эти карты явно обладают какой-то силой."
+       ^
+
+File "game/fishdom.rpy", line 51: expected statement.
+    val ДОВОЛЬНАЯ: " Теперь поняла! А ты не против, если я прихвачу карты с собой?"
+                 ^
+
+File "game/fishdom.rpy", line 52: expected statement.
+    fish: "Ну хорошо. Ты выглядишь доброй. Ты спасла меня. Можешь взять с собой одну карту."
+        ^
+
+File "game/fishdom.rpy", line 53: expected statement.
+    val ЗАДУМ: "Всего одну?"
+             ^
+
+File "game/fishdom.rpy", line 54: expected statement.
+    fish: "Не пойми меня неправильно! Тут недавно был один чужеземец. Все рыскал, искал что-то. Видимо то же самое, что и ты. К счастью, он ничего не нашел."
+        ^
+
+File "game/fishdom.rpy", line 55: expected statement.
+    fish ГРУСТН: "Но наш мир после этого… Он стал немного другим. Начал меняться. В плохую сторону."
+               ^
+
+File "game/fishdom.rpy", line 56: expected statement.
+    fish ГРУСТН: "Если ты сможешь нам как-то помочь, остановить это, то бери эту карту!"
+               ^
+
+File "game/fishdom.rpy", line 59: expected statement.
+    val ЧЕСТЬ: "Ничего не обещаю рыбка, но я постараюсь!"
+             ^
+
+File "game/fishdom.rpy", line 60: expected statement.
+    rix: "Кажется, нам пора"
+       ^
+
+File "game/fishdom.rpy", line 61: expected statement.
+    val ЗАДУМ: "Но почему карта превратилась в фиш…"
+             ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3532.21s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/fishdom.rpy", line 25: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/fishdom.rpy", line 26: expected statement.
+    "Проигнорировать рыбку" :
+                            ^
+
+File "game/fishdom.rpy", line 28: expected statement.
+    "Помочь рыбке" :
+                   ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.36s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3557.94s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/fishdom.rpy", line 25: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/fishdom.rpy", line 26: expected statement.
+    "Проигнорировать рыбку" :
+                            ^
+
+File "game/fishdom.rpy", line 28: expected statement.
+    "Помочь рыбке" :
+                   ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.51s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3565.64s
+Loading error handling took 0.02s
+Loading script took 0.13s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/fishdom.rpy", line 25: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/fishdom.rpy", line 26: expected statement.
+    "Проигнорировать рыбку" :
+                            ^
+
+File "game/fishdom.rpy", line 28: expected statement.
+    "Помочь рыбке" :
+                   ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3574.83s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/fishdom.rpy", line 25: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/fishdom.rpy", line 26: expected statement.
+    "Проигнорировать рыбку" :
+                            ^
+
+File "game/fishdom.rpy", line 28: expected statement.
+    "Помочь рыбке" :
+                   ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.48s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3645.76s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/fishdom.rpy", line 25: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/fishdom.rpy", line 26: expected statement.
+    "Проигнорировать рыбку" :
+                            ^
+
+File "game/fishdom.rpy", line 28: expected statement.
+    "Помочь рыбке" :
+                   ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3721.21s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/fishdom.rpy", line 25: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/fishdom.rpy", line 26: expected statement.
+    "Проигнорировать рыбку" :
+                            ^
+
+File "game/fishdom.rpy", line 28: expected statement.
+    "Помочь рыбке" :
+                   ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.37s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3772.53s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/fishdom.rpy", line 25: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/fishdom.rpy", line 26: expected statement.
+    "Проигнорировать рыбку" :
+                            ^
+
+File "game/fishdom.rpy", line 28: expected statement.
+    "Помочь рыбке" :
+                   ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3792.04s
+Loading error handling took 0.02s
+Loading script took 0.11s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/fishdom.rpy", line 25: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/fishdom.rpy", line 26: expected statement.
+    "Проигнорировать рыбку" :
+                            ^
+
+File "game/fishdom.rpy", line 28: expected statement.
+    "Помочь рыбке" :
+                   ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3794.89s
+Loading error handling took 0.02s
+Loading script took 0.11s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/fishdom.rpy", line 25: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/fishdom.rpy", line 26: expected statement.
+    "Проигнорировать рыбку" :
+                            ^
+
+File "game/fishdom.rpy", line 28: expected statement.
+    "Помочь рыбке" :
+                   ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3831.17s
+Loading error handling took 0.02s
+Loading script took 0.13s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\marakulina-u\\AppData\\Roaming/RenPy/backups\\Tesstrus':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.28s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3894.99s
+Loading error handling took 0.02s
+Loading script took 0.13s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\marakulina-u\\AppData\\Roaming/RenPy/backups\\Tesstrus':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.29s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Early init took 4052.19s
+Loading error handling took 0.02s
+Loading script took 0.13s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\marakulina-u\\AppData\\Roaming/RenPy/backups\\Tesstrus':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.28s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 546.26'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
