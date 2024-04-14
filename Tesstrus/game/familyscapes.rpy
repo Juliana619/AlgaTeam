@@ -34,7 +34,7 @@ label ToNextPlease:
     man Sad "С кем ты разговариваешь???"
     "Мужчина встал и начал направляться к Валерии."
     val Fear "УВОДИ, БЫСТРО!"
-    jump GoldStart
+    jump GoldRunStart
     return
 
 label CalmMan:
@@ -82,5 +82,5 @@ label CalmMan:
     $ familychip = True
     rix "Отлично, уходим!"
     val Fight "Спасибо вам, мы постараемся спасти ваш мир!"
-    jump GoldStart
+    jump GoldGoStart
     return
