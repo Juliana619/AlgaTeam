@@ -96,6 +96,10 @@ define g = Character('Я', color="#c07bf8")
 # Картинки фонов
 image bg_bedroom = im.Scale("Backgrounds/bg_bedroom.png", 1920, 1080)
 image bg_street = im.Scale("Backgrounds/bg_street.png", 1920, 1080)
+image bg_fishdom = im.Scale("Backgrounds/bg_fishdom.png", 1920, 1080)
+image bg_gardenscapes = im.Scale("Backgrounds/bg_gardenscapes.png", 1920, 1080)
+image bg_palace = im.Scale("Backgrounds/bg_palace.png", 1920, 1080)
+image bg_wildscapes = im.Scale("Backgrounds/bg_wildscapes.png", 1920, 1080)
 
 # Картинки концовок
 image end_lostopportunity = im.Scale("Ends/end_lostopportunity.png", 1920, 1080)

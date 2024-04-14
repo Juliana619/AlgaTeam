@@ -1,5 +1,5 @@
 ﻿label Wildstart:
-    scene bg_street
+    scene bg_wildscapes
     with hpunch
     stop music fadeout 1
     play music Wildscapes

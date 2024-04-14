@@ -46,9 +46,9 @@ label HaveChips:
     drm "Да, это мощные вещи. Вы можете пройти. "
     rix "Я был не прав. Дворецкий не так уж глуп, чтобы следовать за плохишом-королем. Это не похоже на преданность… По крайней мере это не слепая преданность. "
     val Honor "Благодарю вас! Ваш поступок много значит для вселенной! "
-    scene bg_bedroom
+    scene bg_palace
     show Val Stick at leftm with easeinleft
-    val Stick "Эй, король! Готов ли ты ответить за свои поступки? "
+    val "Эй, король! Готов ли ты ответить за свои поступки? "
     "Голос Валерии эхом разносился по холлу. Король не появился. "
     val Fight "Боишься? Выходи! Поговорим! "
     show DRM Normal at rightm with easeinright
@@ -150,7 +150,7 @@ label KingLose:
     scene black
     "Лера в ужасе закрыла глаза. Раздался ГРОМКИЙ ДЗЫНЬ. Это был звук короны, ударившейся о мраморный пол "
     rix "Лерчик, ты чего? Ты ж победила! Открой глаза! "
-    scene bg_bedroom
+    scene bg_palace
     show Val Pain at leftm with easeinleft
     show KRM Sad at rightm with easeinright
     "Король сидел на полу и грустно смотрел на корону, скатившуюся с его головы. "
@@ -161,7 +161,7 @@ label KingLose:
     drm "Благодарю вас, мисс. "
     hide DRM
     hide KRM
-    show Rix Normal at rightm with easeinright
+    show Rix at rightm with easeinright
     rix "Кажется, что наше приключение подошло к концу. Чем же ты теперь хочешь заняться? "
 
     menu:
