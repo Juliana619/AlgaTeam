@@ -5,6 +5,27 @@
 
 # Игра начинается здесь:
 label start:
+    #Разные положения для персонажей:
+    transform centerm:
+        xalign 0.5
+        yalign -0.5
+    transform rightm:
+        xalign 0.9
+        yalign -0.5
+    transform leftm:
+        xalign 0.1
+        yalign -0.5
+
+    show Val Normal at centerm with easeinleft
+    val "Хеллоу ворлд"
+    val Happy "Смена эмоции"
+    val Hz "Но ее не видно"
+    val Thoughtful "Но вроде работает"
+    return
+
+
+
+label teststart:
 
     transform centerm:
         xalign 0.5
@@ -15,6 +36,8 @@ label start:
     transform leftm:
         xalign 0.1
         yalign -0.5
+
+
     scene bg_bedroom
     with Dissolve(.5)
     show Markiz Normal at centerm with easeinleft
