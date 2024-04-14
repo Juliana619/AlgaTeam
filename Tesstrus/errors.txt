@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/Ends.rpy", line 80: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    with Dissolve(10.0)
+File "game/rmcountry.rpy", line 66: expected menuitem
+    if chipcount < 1:
     ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sun Apr 14 17:14:43 2024
+Sun Apr 14 19:37:08 2024

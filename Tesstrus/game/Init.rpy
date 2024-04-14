@@ -94,20 +94,18 @@ define g = Character('Я', color="#c07bf8")
 #==========================================================================
 
 # Картинки фонов
-
-
-# Картинки концовок
-image end_lostopportunity = im.Scale("Ends/end_domosed.png", 1920, 1080)
-
-#удалиьть
 image bg_bedroom = im.Scale("Backgrounds/bg_bedroom.png", 1920, 1080)
 image bg_street = im.Scale("Backgrounds/bg_street.png", 1920, 1080)
-image end_alone = im.Scale("Ends/end_alone.png", 1920, 1080)
-image end_burger = im.Scale("Ends/end_burger.png", 1920, 1080)
-image end_dead = im.Scale("Ends/end_dead.png", 1920, 1080)
-image end_domosed = im.Scale("Ends/end_domosed.png", 1920, 1080)
-image end_happy = im.Scale("Ends/end_happy.png", 1920, 1080)
 
+# Картинки концовок
+image end_lostopportunity = im.Scale("Ends/end_lostopportunity.png", 1920, 1080)
+image end_doggi = im.Scale("Ends/end_doggi.png", 1920, 1080)
+image end_dream = im.Scale("Ends/end_dream.png", 1920, 1080)
+image end_heroes = im.Scale("Ends/end_heroes.png", 1920, 1080)
+image end_paradise = im.Scale("Ends/end_paradise.png", 1920, 1080)
+image end_part = im.Scale("Ends/end_part.png", 1920, 1080)
+image end_slave = im.Scale("Ends/end_slave.png", 1920, 1080)
+image end_stay = im.Scale("Ends/end_stay.png", 1920, 1080)
 
 #==========================================================================
 define fs = Character(None, kind=nvl) #Для вывода текста на весь экран
@@ -132,12 +130,12 @@ define BoolBurger = False #Взять ли бургер
 image menu_slideshow:
     im.Scale("Backgrounds/bg_bedroom.png", 1920, 1080) with dissolve
     pause 2.0
-    im.Scale("images/Ends/end_happy.png", 1920, 1080) with dissolve
-    pause 3.0
-    im.Scale("images/Ends/end_alone.png", 1920, 1080) with dissolve
-    pause 3.0
-    im.Scale("images/Ends/end_domosed.png", 1920, 1080) with dissolve
-    pause 3.0
+    #im.Scale("images/Ends/end_happy.png", 1920, 1080) with dissolve
+    #pause 3.0
+    #im.Scale("images/Ends/end_alone.png", 1920, 1080) with dissolve
+    #pause 3.0
+    #im.Scale("images/Ends/end_domosed.png", 1920, 1080) with dissolve
+    #pause 3.0
     repeat
 #==========================================================================
 #ЭКРАН ЗАГРУЗКИ?
