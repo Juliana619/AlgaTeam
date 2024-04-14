@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/fishdom.rpy", line 25: menu statement expects a non-empty block.
-    menu:
-        ^
-
-File "game/fishdom.rpy", line 26: expected statement.
-    "Проигнорировать рыбку" :
-                            ^
-
-File "game/fishdom.rpy", line 28: expected statement.
-    "Помочь рыбке" :
-                   ^
+File "game/gardenscapes.rpy", line 93: Line is indented, but the preceding jump statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    return  
+    ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sun Apr 14 13:45:43 2024
+Sun Apr 14 14:14:31 2024
