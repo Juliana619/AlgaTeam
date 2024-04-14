@@ -118,7 +118,20 @@ define familychip = False
 define gardenchip = False
 define goldhunterchip = False
 define chipcount = 0
-define BoolBurger = False #Взять ли бургер
+
+
+define audio.heroes = "audio/Hackathon Heroes.mp3"
+define audio.Family = "audio/Family.mp3"
+define audio.Ends = "audio/Ends.mp3"
+define audio.Fight = "audio/Fight.mp3"
+define audio.Fishdom = "audio/Fishdom.mp3"
+define audio.Garden = "audio/Garden.mp3"
+define audio.Goldh = "audio/Goldh.mp3"
+define audio.RoyalMatch = "audio/RoyalMatch.mp3"
+define audio.Start = "audio/Start.mp3"
+define audio.Wildscapes = "audio/Wildscapes.mp3"
+
+
 
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.

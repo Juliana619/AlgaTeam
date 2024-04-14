@@ -1,6 +1,8 @@
 label FamilyStart:
     scene bg_street
     with hpunch
+    stop music fadeout 1
+    play music Family
     show Val Pain at leftm with easeinleft
     show rix at rightm with easeinright
 

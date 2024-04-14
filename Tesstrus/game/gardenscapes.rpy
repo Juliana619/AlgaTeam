@@ -1,6 +1,8 @@
 label GardenStart:
     scene bg_street
     with hpunch
+    stop music fadeout 1
+    play music Garden
     show Val Pain at leftm with easeinleft
     show Rix at rightm with easeinright
 

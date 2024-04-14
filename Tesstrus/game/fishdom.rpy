@@ -1,6 +1,8 @@
 label FishdomStart:
     scene bg_street
     with hpunch
+    stop music fadeout 1
+    play music Fishdom
     show Val Pain at leftm with easeinleft
     show Rix at rightm with easeinright
     "Моргнув, Лера очутилась… под водой?"
