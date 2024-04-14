@@ -217,20 +217,33 @@ init python:
 
     g.button("end_lostopportunity")
     g.condition("persistent.end_lostopportunity")
-    g.image(im.Scale("images/Ends/end_domosed.png", 1920, 1080))
+    g.image(im.Scale("images/Ends/end_lostopportunity.png", 1920, 1080))
 
-    g.button("end_dead")
-    g.condition("persistent.end_dead")
-    g.image("images/Ends/end_dead.png")
+    g.button("end_doggi")
+    g.condition("persistent.end_doggi")
+    g.image(im.Scale("images/Ends/end_doggi.png", 1920, 1080))
 
-    g.button("end_burger")
-    g.condition("persistent.end_burger")
-    g.image("images/Ends/end_burger.png")
+    g.button("end_dream")
+    g.condition("persistent.end_dream")
+    g.image(im.Scale("images/Ends/end_dream.png", 1920, 1080))
 
-    g.button("end_happy")
-    g.condition("persistent.end_happy")
-    g.image("images/Ends/end_happy.png")
+    g.button("end_heroes")
+    g.condition("persistent.end_heroes")
+    g.image(im.Scale("images/Ends/end_heroes.png", 1920, 1080))
 
-    g.button("end_alone")
-    g.condition("persistent.end_alone")
-    g.image("images/Ends/end_alone.png")
+    g.button("end_paradise")
+    g.condition("persistent.end_paradise")
+    g.image(im.Scale("images/Ends/end_paradise.png", 1920, 1080))
+
+    g.button("end_part")
+    g.condition("persistent.end_part")
+    g.image(im.Scale("images/Ends/end_part.png", 1920, 1080))
+
+    g.button("end_slave")
+    g.condition("persistent.end_slave")
+    g.image(im.Scale("images/Ends/end_slave.png", 1920, 1080))
+
+    g.button("end_stay")
+    g.condition("persistent.end_stay")
+    g.image(im.Scale("images/Ends/end_stay.png", 1920, 1080))
+
