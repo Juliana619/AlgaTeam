@@ -17,7 +17,7 @@ image Val Objection = "Characters/Val Objection.png" #Objection!
 
 #ПОДРУГА ВАЛЕРЫ
 image Valp Normal = "Characters/Valp Normal.png"  #Обыч
-image Valp Zam = "Characters/Valp Zam.jpg" #Зам
+image Valp Zam = "Characters/Valp Zam.png" #Зам
 
 #РАСКОМЕНТИРОВАТЬ КОГДА БУДУТ КАРТИНКИ
 #Рикс
