@@ -1,5 +1,5 @@
 label GoldGoStart:
-    scene bg_street
+    scene bg_goldhunter
     with hpunch
     stop music fadeout 1
     play music Goldh

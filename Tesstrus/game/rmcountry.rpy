@@ -1,5 +1,5 @@
 label RMStart:
-    scene bg_street
+    scene bg_royaloutside
     with hpunch
     stop music fadeout 1
     play music RoyalMatch

@@ -1,5 +1,5 @@
 label FamilyStart:
-    scene bg_street
+    scene bg_familyscapes
     with hpunch
     stop music fadeout 1
     play music Family
