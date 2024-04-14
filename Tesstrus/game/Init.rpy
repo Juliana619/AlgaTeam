@@ -100,6 +100,10 @@ image bg_fishdom = im.Scale("Backgrounds/bg_fishdom.png", 1920, 1080)
 image bg_gardenscapes = im.Scale("Backgrounds/bg_gardenscapes.png", 1920, 1080)
 image bg_palace = im.Scale("Backgrounds/bg_palace.png", 1920, 1080)
 image bg_wildscapes = im.Scale("Backgrounds/bg_wildscapes.png", 1920, 1080)
+image bg_goldhunter = im.Scale("Backgrounds/bg_goldhunter.png", 1920, 1080)
+image bg_royaloutside = im.Scale("Backgrounds/bg_royaloutside.png", 1920, 1080)
+image bg_familyscapes = im.Scale("Backgrounds/bg_familyscapes.png", 1920, 1080)
+image bg_gardenscapes_house = im.Scale("Backgrounds/bg_gardenscapes_house.png", 1920, 1080)
 
 # Картинки концовок
 image end_lostopportunity = im.Scale("Ends/end_lostopportunity.png", 1920, 1080)
