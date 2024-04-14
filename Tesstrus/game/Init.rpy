@@ -21,7 +21,7 @@ image Valp Zam = "Characters/Valp Zam.png" #Зам
 
 #РАСКОМЕНТИРОВАТЬ КОГДА БУДУТ КАРТИНКИ
 #Рикс
-#image Rix Normal = "Characters/Rix Normal.png"
+image Rix = "Characters/Rix Normal.png"
 
 #Панда
 image Panda Normal = "Characters/Panda Normal.png"  #Обыч
