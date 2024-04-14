@@ -24,8 +24,12 @@ image Valp Zam = "Characters/Valp Zam.png" #Зам
 #image Rix Normal = "Characters/Rix Normal.png"
 
 #Панда
-#image Panda Normal = "Characters/Panda Normal.png"  #Обыч
-#image Panda Cry = "Characters/Panda Cry.png" #Плач
+image Panda Normal = "Characters/Panda Normal.png"  #Обыч
+image Panda Cry = "Characters/Panda Cry.png" #Плач
+
+#Рыбка
+image Fish Happy = "Characters/Fish Happy.png"  #Обыч
+image Fish Sad = "Characters/Fish Sad.png" #Плач
 
 #Остин
 #image Ostin Normal = "Characters/Ostin Normal.png" #Норм
