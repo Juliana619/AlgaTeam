@@ -15,6 +15,12 @@ label start:
     transform leftm:
         xalign 0.1
         yalign -0.5
+    transform centerz:
+        xalign 0.5
+        yalign 0.9
+    transform centerf:
+        xalign 0.5
+        yalign 0.4
     #Погнали
     scene bg_street
     with Dissolve(.5)

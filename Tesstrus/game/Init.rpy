@@ -28,7 +28,7 @@ image Panda Normal = "Characters/Panda Normal.png"  #Обыч
 image Panda Cry = "Characters/Panda Cry.png" #Плач
 
 #Рыбка
-image Fish Happy = "Characters/Fish Happy.png"  #Обыч
+image Fish Normal = "Characters/Fish Normal.png"  #Обыч
 image Fish Sad = "Characters/Fish Sad.png" #Плач
 
 #Остин
@@ -40,8 +40,8 @@ image Fish Sad = "Characters/Fish Sad.png" #Плач
 #image Man Cry = "Characters/Man Cry.png" #Плач
 
 #ЕНОТ
-#image Rac Happy = "Characters/Rac Happy.png" #Радостный
-#image Rac Worr = "Characters/Rac Worr.png" #Тревожный
+image Rac Happy = "Characters/Rac Happy.png" #Радостный
+image Rac Worr = "Characters/Rac Worr.png" #Тревожный
 
 
 #КОРОЛЬ
@@ -52,7 +52,7 @@ image Fish Sad = "Characters/Fish Sad.png" #Плач
 #КОРОЛЬ РМ
 image KRM Sad = "Characters/KRM Sad.png"
 image KRM Evil = "Characters/KRM Evil.png"
-image KRM Happy = "Characters/KRM Happy.png
+image KRM Happy = "Characters/KRM Happy.png"
 
 #ДВОРЕЦКИЙ
 #image DRM Normal = "Characters/DRM Normal.png"

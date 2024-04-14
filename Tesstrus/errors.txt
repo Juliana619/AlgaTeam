@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/rmcountry.rpy", line 66: expected menuitem
-    if chipcount < 1:
-    ^
+File "game/rmcountry.rpy", line 151: expected 'simple_expression' not found.
+    show KRM Sad at with easeinright
+                    ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sun Apr 14 19:37:08 2024
+Sun Apr 14 20:09:02 2024

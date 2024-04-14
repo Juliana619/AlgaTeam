@@ -51,7 +51,7 @@ label HaveChips:
     val Fight "Боишься? Выходи! Поговорим! "
     show DRM Normal at rightm with easeinright
     drm "Не стоит так кричать. Я сообщу королю о вашем визите. "
-    hide drm
+    hide DRM Normal
     "Спустя какое-то время появился король. "
     show KRM Happy at rightm with easeinright
     krm Happy "У меня гости? А я и не знал! Добрый день. Прошу, проходите! "
@@ -82,7 +82,7 @@ label Strong:
     val Strict "Да, кидай! "
     rix "Если первым будет его ход - нам не сдобровать… "
     "Король кинул кубик, но тот, прокатившись, застыл на ребре. "
-    krm Happy "Как утомительно. Давай перекину. "
+    krm Evil "Как утомительно. Давай перекину. "
     val Strict "СТОЙ! Оставь. Дай кубику сделать свой выбор. "
     "Кажется, прошла целая вечность, прежде чем кубик упал и показал цифру."
 
@@ -104,7 +104,7 @@ label KingWin:
     if chipcount == 2:
         val Thoughtful "Кажется… Это просто фишки, они ни для чего не нужны… "
         "Король хитро прищурился и улыбнулся. "
-        krm Happy "Кажется, зря ты сюда пришла, девочка… "
+        krm Evil "Кажется, зря ты сюда пришла, девочка… "
         jump Slave
         return
 
@@ -148,13 +148,15 @@ label KingLose:
     rix "Лерчик, ты чего? Ты ж победила! Открой глаза! "
     scene bg_bedroom
     show Val Pain at leftm with easeinleft
+    show KRM Sad at rightm with easeinright
     "Король сидел на полу и грустно смотрел на корону, скатившуюся с его головы. "
     val Happy "Отныне ты не являешься королем своей страны! "
     "Лера подошла к дворецкому и передала ему корону "
-    show DRM Normal at rightm with easeinright
+    show DRM Normal at centerm with easeinright
     val Honor "Что делать с ней, с замком и королем - решать тебе. Я чувствую, что ты справедливый человек. "
     drm "Благодарю вас, мисс. "
     hide DRM
+    hide KRM
     show Rix Normal at rightm with easeinright
     rix "Кажется, что наше приключение подошло к концу. Чем же ты теперь хочешь заняться? "
 
