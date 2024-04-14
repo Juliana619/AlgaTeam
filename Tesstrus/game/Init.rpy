@@ -13,7 +13,14 @@ image Val Honor = "Characters/Val Honor.png" #ЧЕСТЬ
 image Val Rapture = "Characters/Val Rapture.png" #ВСОХ
 image Val Fear = "Characters/Val Fear.png" #ИСПУГ
 image Val Stick = "Characters/Val Stick.png" #ПАЛК
-image Val Objection = "Characters/Joy Objection.png" #Objection!
+image Val Objection = "Characters/Val Objection.png" #Objection!
+
+#ПОДРУГА ВАЛЕРЫ
+image Valp Normal = "Characters/Valp Normal.png"  #Обыч
+image Valp Zam = "Characters/Valp Zam.jpg" #Зам
+
+#Рикс
+image Rix Normal = "Characters/Markiz Normal.png"
 
 #удалиьть
 image Joy Normal = "Characters/Joy Normal.png"
@@ -25,6 +32,9 @@ image Markiz Normal = "Characters/Markiz Normal.png"
 # Определение персонажей игры.
 
 define val = Character('Валерия', color="#f8d77b", image='Val')
+define valp = Character('Зоя', color="#48d198", image='Valp')
+define rixnone = Character('Голос', color="#ffffff", image=None)
+define rix = Character('Дракон', color="#0e6415", image='Rix')
 
 #удалиьть
 define m = Character('Маркиз', color="#665f37", image='Markiz')
@@ -37,6 +47,10 @@ define g = Character('Я', color="#c07bf8")
 #==========================================================================
 
 # Картинки фонов
+
+
+# Картинки концовок
+image end_lostopportunity = im.Scale("Ends/end_domosed.png", 1920, 1080)
 
 #удалиьть
 image bg_bedroom = im.Scale("Backgrounds/bg_bedroom.png", 1920, 1080)

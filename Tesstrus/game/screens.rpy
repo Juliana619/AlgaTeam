@@ -892,7 +892,7 @@ screen gallery():
         xfill True
         yfill True
 
-        add g.make_button("end_domosed", im.Scale("images/Ends/end_domosed.png", 437, 245), xalign=0.5, yalign=0.5, hover_border="images/UI/Frame.png")
+        add g.make_button("end_lostopportunity", im.Scale("images/Ends/end_domosed.png", 437, 245), xalign=0.5, yalign=0.5, hover_border="images/UI/Frame.png")
         add g.make_button("end_dead", "images/UI/Locked.png", xalign=0.5, yalign=0.5, hover_border="images/UI/Frame.png")
         add g.make_button("end_burger", "images/UI/Locked.png", xalign=0.5, yalign=0.5, hover_border="images/UI/Frame.png")
         ## null

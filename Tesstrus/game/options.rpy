@@ -215,8 +215,8 @@ init python:
 
     g.locked_button = "images/UI/Locked.png"
 
-    g.button("end_domosed")
-    g.condition("persistent.end_domosed")
+    g.button("end_lostopportunity")
+    g.condition("persistent.end_lostopportunity")
     g.image(im.Scale("images/Ends/end_domosed.png", 1920, 1080))
 
     g.button("end_dead")
