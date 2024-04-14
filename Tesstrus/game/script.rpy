@@ -22,8 +22,9 @@ label start:
         xalign 0.5
         yalign 0.4
     #Погнали
-    scene bg_street
-    with Dissolve(.5)
+    scene bg_street with Dissolve(.5)
+    stop music fadeout 1
+    play music Start
     "После нескольких дней бесконечных дождей солнечный и теплый день казался настоящей наградой."
     "Идеально, чтобы лениться или вздыхать на нежелание заниматься важными задачами."
     "Если, конечно, нет других проблем…"

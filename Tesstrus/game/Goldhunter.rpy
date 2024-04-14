@@ -1,6 +1,8 @@
 label GoldGoStart:
     scene bg_street
     with hpunch
+    stop music fadeout 1
+    play music Goldh
     show Val Pain at leftm with easeinleft
     show Rix at rightm with easeinright
     val Pain "Боже… это было сложно… Я так устала."

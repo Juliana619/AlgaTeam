@@ -1,6 +1,8 @@
 ﻿label Wildstart:
     scene bg_street
     with hpunch
+    stop music fadeout 1
+    play music Wildscapes
     show Val Pain at leftm with easeinleft
     show Rix at rightm with easeinright
     "Когда ощущение немного отпустило, и Лера смогла перебороть поступившую к горлу тошноту, девушка открыла глаза."

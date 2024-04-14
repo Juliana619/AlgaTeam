@@ -1,6 +1,8 @@
 label RMStart:
     scene bg_street
     with hpunch
+    stop music fadeout 1
+    play music RoyalMatch
     show Val Pain at leftm with easeinleft
     show Rix at rightm with easeinright
     val Happy "Ну, здравствуй, новый мир. "
@@ -73,6 +75,8 @@ label HaveChips:
         return
 
 label Strong:
+    stop music fadeout 1
+    play music Fight
     val Fight "Король! Вызываю тебя на дуэль. Если я выигрываю - ты перестанешь терроризировать другие миры. Если выиграешь ты - чтож, продолжай… "
     krm Happy "Ха-ха-ха. Кажется, что я ничего не получаю при выигрыше. "
     krm Happy "Давай лучше так. Если я выиграю - ты станешь моей прислугой. Будешь помогать со строительством замка. Если понимаешь о чем я. "
@@ -170,6 +174,8 @@ label KingLose:
     return
 
 label Brain:
+    stop music fadeout 1
+    play music Fight
     val Fight "Король! Вызываю тебя на суд! "
     krm Happy "Ахахах. И кто же будет в роли судьи? "
     val Thoughtful "Судьей будет твой дворецкий. "

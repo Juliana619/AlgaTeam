@@ -1,4 +1,6 @@
 label IgonreDragon:
+    stop music fadeout 1
+    play music Ends
     "Идея поддаться странному голосу в голове всё еще показалась Валерии странной, поэтому она решила ничего не менять."
     "Со временем его эхо начало пропадать, становясь редкими окликами в голове, а, затем, стихло совсем."
     scene end_lostopportunity
@@ -10,6 +12,8 @@ label IgonreDragon:
     return
 
 label Joy:
+    stop music fadeout 1
+    play music Ends
     scene end_paradise with Dissolve(0.5)
     "Лера понюхала сначала один цветок. Следом другой. Потом она побежала к соседней клумбе. Затем она решила покачаться на качелях. Потом поиграть с корабликами в фонтане…"
     "В скором времени она познакомилась с хозяевами этого места - садовником и его псом."
@@ -26,6 +30,8 @@ label Joy:
     return
 
 label Sobanya:
+    stop music fadeout 1
+    play music Ends
     val Shy "Эээээ… нет."
     rix "Так и знал, не нужно было бросать тех бедолаг в беде!"
     drm "Тогда, ничем не могу помочь."
@@ -56,6 +62,8 @@ label Slave:
     return
 
 label StayWithDragon:
+    stop music fadeout 1
+    play music Ends
     val Thoughtful "Скажи, Дракош… А могу я остаться здесь?"
     rix "А ты хочешь?"
     val Shy "Да. Тем более, здесь я буду полезнее, ведь наверняка нужна помощь с мирами? Многое предстоит отстроить и вернуть к былому процветанию."
@@ -71,6 +79,8 @@ label StayWithDragon:
     return
 
 label StayHome:
+    stop music fadeout 1
+    play music Ends
     scene end_dream with Dissolve(0.5)
     "Валерия проснулась в своей постели и облегчённо вздохнула. Это был всего лишь сон?"
     "Она встала, подошла к окну и распахнула шторы. Солнечный свет залил комнату. За окном был мир, где всё знакомо и привычно."
@@ -88,6 +98,7 @@ label Hesitate:
     rix "Не совсем понимаю о чем ты, у тебя же есть дом и твоя нормальная жизнь"
     val Pain "Я не…"
     scene black with Dissolve(1.0)
+    stop music fadeout 1
     ulik "Вот что ты делаешь, что ты пишешь?"
     mari "ДА КТО БЫ ЗНАЛ!"
     mari "Не могу я придумать, кто она, что она, откуда и куда. Идей ноль, голова пуста."
@@ -104,13 +115,17 @@ label Hesitate:
     ulik "Давай только сразу договоримся, что не перерабатываем, не переживаем, сильно много не делаем, сном не пренебрегаем."
     mari "Да, конечно, нафиг надо перерабатывать."
     scene end_heroes with Dissolve(0.5)
+    play music heroes
     "Поспать им, конечно, нормально не удалось."
     "Не перерабатывать и не переживать тоже."
     "ПОЛУЧЕНА КОНЦОВКА: ГЕРОИНИ ХАКАТОНА"
-    $ persistent.end_heroes = True 
+    $ persistent.end_heroes = True
+    stop music fadeout 3 
     return
 
 label AskDragon:
+    stop music fadeout 1
+    play music Ends
     val Thoughtful "Дракош, мы столько с тобой прошли, столько видели вместе…"
     rix "И правда, удивительное получилось приключение."
     val Normal "Но всё же я так мало знаю о тебе. Кто ты?"
