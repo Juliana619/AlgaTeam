@@ -19,8 +19,31 @@ image Val Objection = "Characters/Val Objection.png" #Objection!
 image Valp Normal = "Characters/Valp Normal.png"  #Обыч
 image Valp Zam = "Characters/Valp Zam.jpg" #Зам
 
+#РАСКОМЕНТИРОВАТЬ КОГДА БУДУТ КАРТИНКИ
 #Рикс
-image Rix Normal = "Characters/Markiz Normal.png"
+#image Rix Normal = "Characters/Rix Normal.png"
+
+#Панда
+#image Panda Normal = "Characters/Panda Normal.png"  #Обыч
+#image Panda Cry = "Characters/Panda Cry.png" #Плач
+
+#Остин
+#image Ostin Normal = "Characters/Ostin Normal.png" #Норм
+#image Ostin Evil = "Characters/Ostin Evil.png" #Злой
+
+#Мужик с ФС
+#image Man Sad = "Characters/Man Sad.png" #Грусть
+#image Man Cry = "Characters/Man Cry.png" #Плач
+
+#ЕНОТ
+#image Rac Happy = "Characters/Rac Happy.png" #Радостный
+#image Rac Worr = "Characters/Rac Worr.png" #Тревожный
+
+
+#КОРОЛЬ
+#image King Freez = "Characters/King Freez.png" #Замор
+#image King Happy = "Characters/King Happy.png" #Счаст
+#image King Surp = "Characters/King Surp.png" #Удив
 
 #удалиьть
 image Joy Normal = "Characters/Joy Normal.png"
@@ -35,7 +58,14 @@ define val = Character('Валерия', color="#f8d77b", image='Val')
 define valp = Character('Зоя', color="#48d198", image='Valp')
 define rixnone = Character('Голос', color="#ffffff", image=None)
 define rix = Character('Дракон', color="#0e6415", image='Rix')
+define panda = Character('Красная панда', color="#0e6415", image='Panda')
+define fish = Character('Рыбка', color="#6116c4", image='Fish')
+define ostin = Character('Садовник', color="#ee2e2e", image='Ostin')
+define man = Character('Мужчина', color="#6384cc", image='Man')
+define rac = Character('Енот', color="#666970", image='Rac')
+define king = Character('Король', color="#f8e53a", image='King')
 
+define incognito = Character('?', color="#ffffff")
 #удалиьть
 define m = Character('Маркиз', color="#665f37", image='Markiz')
 define mn = Character('?', color="#665f37")
@@ -67,6 +97,12 @@ define fs = Character(None, kind=nvl) #Для вывода текста на в�
 
 #==========================================================================
 # Переменные
+define wildchip = False
+define fishchip = False
+define familychip = False
+define gardenchip = False
+define goldhunterchip = False
+
 define BoolBurger = False #Взять ли бургер
 
 # Вместо использования оператора image можете просто
